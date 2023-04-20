@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-image: url("./head.jpeg");
+    background-size: cover;
+    max-width: 1440px;
+    height: 700px;
+    padding: 2rem 5rem;
+    color: #fff;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: rgba(255, 255, 255, 0.684);
+}
+
+nav {
+    display: flex;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ffffffae;
+}
+
+.head {
+    text-align: center;
+    align-items: center;
+    margin-top: 8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head h3 {
+    font-size: 2.50rem;
+    margin: 0;
+    padding: 0;
+}
+
+.head h1 {
+    font-size: 7rem;
+    margin: 0;
+    padding: 0;
+}
+
+.head button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 0.75rem;
+    background-color: yellow;
+    color: black;
+    border: none;
+    margin-top: 1rem;
+}
+
+.head button:hover {
+    background-color: #ffd000;
+}
+
+#our_services {
+    text-align: center;
+    padding: 5rem 7rem;
+}
+
+#our_services hr{
+    width: 7rem;
+    height: 0.25rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    color: #ffb700;
+}
+
+.card-img-top {
+    height: 30rem;
+}
+
+.card-body {
+    line-height: 2rem;
+}
+
+.original {
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 5rem 7rem;
+}
+
+.original h1 {
+    font-size: 5rem;
+    color: silver;
+    padding: 0;
+    margin: 0;
+}
+
+.original h3 {
+    font-size: 2rem;
+    color: gray;
+}
+
+
+a img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+#janne {
+    color: grey;
+    text-decoration: none;
+    font-size: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.about_us {
+    padding: 5rem 7rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_us_left h6 {
+    color: silver;
+}
+
+.about_us_left h1 {
+    font-weight: lighter;
+    color: #444040;
+    margin-top: 1rem;
+}
+
+.about_us_left p {
+    color: grey;
+    margin-top: 3rem;
+}
+
+.about_us_left button {
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.about_us_right {
+    width: 25rem;
+}
+
+.questions {
+    max-width: 1440px;
+    height: 550px;
+    background-image: url("./05img.jpeg");
+    background-size: cover;
+    text-align: center;
+    padding: 7rem;
+    color: #605f5f;
+}
+
+.questions h1 {
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+.questions p {
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+
+.questions button {
+    width: 11rem;
+    height: 3rem;
+    font-size: 0.75rem;
+    background-color: yellow;
+    color: black;
+    border: none;
+    margin-top: 2rem;
+}
+
+.questions button:hover {
+    background-color: #ffd000;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: #605f5f;
+    padding: 2rem;
+}
+
+.foot {
+    color: #605f5f;
+}
+
+#foot {
+    color: #605f5f;
+}
+
+.foot:hover {
+    color: #000;
+}
